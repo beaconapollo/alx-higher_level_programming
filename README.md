@@ -1,1 +1,1 @@
-A repository for Python Programming
+ repository for Python Programming
