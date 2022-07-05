@@ -10,4 +10,6 @@ def new_in_list(list, index, ne):
             else:
                 new.append(list[i])
             i += 1
-    return(new)
+        return(new)
+    else:
+        return(list)
