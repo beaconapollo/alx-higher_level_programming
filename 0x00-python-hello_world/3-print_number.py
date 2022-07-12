@@ -1,3 +1,4 @@
 #!/usr/bin/python3
 number = 98
-print("{0:d} Battery street".format(number))
+if (isinstance(number)):
+    print(f"{number} Battery street")
