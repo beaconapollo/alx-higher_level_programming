@@ -5,7 +5,7 @@ def delete_at(my_list=[], idx=0):
 
     for item in my_list:
         len += 1
-    if idx < 0 or idx >= l:
+    if idx < 0 or idx >= len:
         return my_list
     while i < len:
         if i == idx:
