@@ -18,9 +18,12 @@ def list_division(my_list_1, my_list_2, list_length):
                 new_list.append(0)
             elif my_list_2[i] == 0:
                 new_list.append(0)
-            elif not isinstance(my_list_1[i], int) and not isinstance(my_list_1[i], float):
-                new_list.append(0)
-            elif not isinstance(my_list_2[i], int) and not isinstance(my_list_2[i], float):
-                new_list.append(0)
+            else:
+                a = my_list_1[i]
+                b = my_list_2[i]
+                if not isinstance(a, int) and not isinstance(a, float):
+                    new_list.append(0)
+                elif not isinstance(b, int) and not isinstance(b, float):
+                    new_list.append(0)
             i += 1
     return new_list
